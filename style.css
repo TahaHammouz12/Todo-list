@@ -1,0 +1,41 @@
+#list1 .form-control {
+  border-color: transparent;
+}
+#list1 .form-control:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+#list1 .select-input.form-control[readonly]:not([disabled]) {
+  background-color: #fbfbfb;
+}
+
+.list-date {
+  color: #748290;
+  font-size: 12px;
+}
+
+.text-right {
+text-align: right!important;
+}
+
+.category-box {
+position: relative;
+border-bottom: 2px solid rgb(18 213 110);
+}
+
+.category-box-done {
+position: relative;
+border-bottom: 2px solid red;
+
+}
+
+.crossed{
+text-decoration: line-through;
+
+}
+#counter{
+float: right;
+width: 10%;
+height: 40px;
+font-size: 12.4px;
+}
